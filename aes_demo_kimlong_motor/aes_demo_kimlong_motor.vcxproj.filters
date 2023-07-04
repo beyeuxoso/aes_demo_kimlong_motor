@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Misc Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>xml;json;txt;rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Application">
+      <UniqueIdentifier>{93a073c9-0eee-4361-9b20-d3ded8b7286a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Threads">
+      <UniqueIdentifier>{b5d9d6e7-714b-4c16-a74a-93f492bfb791}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HighLeverDriver">
+      <UniqueIdentifier>{b9b64886-fe4a-4a46-a9fa-965a2ddc5f7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HighLeverDriver\Debug">
+      <UniqueIdentifier>{f52e16e4-b39c-4a0c-a55d-a5db630cb916}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HighLeverDriver\gpio">
+      <UniqueIdentifier>{d9bae280-e145-48e8-b43d-0605241b783f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries">
+      <UniqueIdentifier>{3f197a86-5048-42bf-967c-31b89c7ef6ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\ArduinoThread-2.1.1">
+      <UniqueIdentifier>{21b72b8e-fda6-4b1d-8797-9e9e21fbdc22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\ModbusRtu">
+      <UniqueIdentifier>{4ff99d8a-6268-40be-a509-4726e7b7614b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\RFID">
+      <UniqueIdentifier>{8d9ac393-a36e-4d45-8bb6-d39531560a82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Configuration">
+      <UniqueIdentifier>{a15a62a0-bccc-459b-91e7-9db247e18384}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component">
+      <UniqueIdentifier>{3818d6ae-9f0c-4da3-8493-5f34db92eea3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\arduino folders read me.txt">
+      <Filter>Misc Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="aes_demo_kimlong_motor.ino" />
+    <ClCompile Include="Threads.cpp">
+      <Filter>Application\Threads</Filter>
+    </ClCompile>
+    <ClCompile Include="Dbg.cpp">
+      <Filter>HighLeverDriver\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="gpio.cpp">
+      <Filter>HighLeverDriver\gpio</Filter>
+    </ClCompile>
+    <ClCompile Include="Thread.cpp">
+      <Filter>Libraries\ArduinoThread-2.1.1</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadController.cpp">
+      <Filter>Libraries\ArduinoThread-2.1.1</Filter>
+    </ClCompile>
+    <ClCompile Include="RFID.cpp">
+      <Filter>Libraries\RFID</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Threads.h">
+      <Filter>Application\Threads</Filter>
+    </ClInclude>
+    <ClInclude Include="Dbg.h">
+      <Filter>HighLeverDriver\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="gpio.h">
+      <Filter>HighLeverDriver\gpio</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticThreadController.h">
+      <Filter>Libraries\ArduinoThread-2.1.1</Filter>
+    </ClInclude>
+    <ClInclude Include="Thread.h">
+      <Filter>Libraries\ArduinoThread-2.1.1</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadController.h">
+      <Filter>Libraries\ArduinoThread-2.1.1</Filter>
+    </ClInclude>
+    <ClInclude Include="ModbusRtu.h">
+      <Filter>Libraries\ModbusRtu</Filter>
+    </ClInclude>
+    <ClInclude Include="RFID.h">
+      <Filter>Libraries\RFID</Filter>
+    </ClInclude>
+    <ClInclude Include="BoardPin.h">
+      <Filter>Configuration</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

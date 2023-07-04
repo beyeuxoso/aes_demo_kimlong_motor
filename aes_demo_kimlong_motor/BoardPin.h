@@ -1,0 +1,25 @@
+#pragma once
+// pinout
+/*
+	B12	ENCODER A					GND
+	B13	ENCODER B					GND
+	B14								3.3
+	B15								RES
+	A8								B11
+	A9	USART1_TX	(DEBUG)			B10
+	A10	USART1_RX	(DEBUG)			B1
+	A11	CAN_RX		(RESERVED)		B0
+	A12	CAN_TX		(RESERVED)		A7	SPI_MOSI
+	A13								A6	SPI_MISO
+	A14								A5	SPI_SCK
+	A15								A4	SPI_CS
+	B3								A3  UART2_RX	(RS485)
+	B4	ADX1115_POWER 1				A2  UART2_TX	(RS485)
+	B5	ADX1115_POWER 2				A1	TX_EN		(RS485)
+	B6	I2C	SCL		(ADX1115)		A0
+	B7	I2C	SDA		(ADX1115)		C15
+	B8								C14
+	B9								C13	LED_DEBUG
+	5V								VBT
+	GND								3.3
+*/
