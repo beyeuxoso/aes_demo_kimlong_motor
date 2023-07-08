@@ -18,7 +18,8 @@
 #define DEBUG_TX				PA3
 #define DEBUG_RX				PA2
 
-// Debug USART2
+// RFID
+#define RST						PB11
 #define SPI2_CS					PB12
 #define SPI2_SCK				PB13	
 #define SPI2_MISO				PB14
@@ -26,10 +27,10 @@
 
 // Other GPIO function
 // LED INDICATE
-#define LED_GREEN				PA13
-#define LED_RED					PA14
+#define LED_GREEN				PA5
+#define LED_RED					PA6
 // PITTONG
-#define PITTONG					PA8
+#define PITTONG					PA7
 // SENSOR COUNTER
 #define SENSOR_CNT				PB9
 // Led debug

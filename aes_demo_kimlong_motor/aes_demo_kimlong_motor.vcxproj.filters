@@ -101,5 +101,8 @@
     <ClInclude Include="BoardPin.h">
       <Filter>Configuration</Filter>
     </ClInclude>
+    <ClInclude Include="__vm\.aes_demo_kimlong_motor.vsarduino.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

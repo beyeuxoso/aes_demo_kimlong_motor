@@ -4,12 +4,22 @@
  Author:	Công Minh
 */
 
-// the setup function runs once when you press reset or power the board
+#include "RFID.h"
+#include "Dbg.h";
+#include "gpio.h"
+
 void setup() {
-
+    Dbg_Init();
+    Dbg_Println("start:");
+	RC522_Init();		// Init MFRC522
+	delay(4);				// Optional delay. Some board do need more time after init to be ready, see Readme
 }
 
-// the loop function runs over and over again until power down or reset
+
 void loop() {
-  
+	Dbg_Println(getUID());
+	delay(1000);
 }
+
+
+	
